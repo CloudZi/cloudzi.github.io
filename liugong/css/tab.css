@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F7F7F7;
+}
+
+.tabs {
+    width: 100%;
+    margin: 30px auto;
+    background-color: #FFF;
+    border: 1px solid #C0DCC0;
+    box-sizing: border-box;
+}
+
+.tabs nav {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    overflow: hidden;
+    background-color: #C0DCC0;
+    /* 伸缩盒模型 */
+    display: flex;
+}
+
+nav a {
+    display: block;
+    width: 50%;
+    border-right: 1px solid #FFF;
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+nav a.active {
+    background-color: rgb(216, 196, 133);
+}
+
+.cont {
+    overflow: hidden;
+    display: none;
+}
+
+.cont ol {
+    line-height: 30px;
+}

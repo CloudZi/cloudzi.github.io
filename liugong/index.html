@@ -5,78 +5,134 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #F7F7F7;
-    }
-
-    .tabs {
-      width: 400px;
-      margin: 30px auto;
-      background-color: #FFF;
-      border: 1px solid #C0DCC0;
-      box-sizing: border-box;
-    }
-
-    .tabs nav {
-      height: 40px;
-      text-align: center;
-      line-height: 40px;
-      overflow: hidden;
-      background-color: #C0DCC0;
-      /* 伸缩盒模型 */
-      display: flex;
-    }
-
-    nav a {
-      display: block;
-      width: 100px;
-      border-right: 1px solid #FFF;
-      color: #000;
-      text-decoration: none;
-    }
-
-    nav a:last-child {
-      border-right: none;
-    }
-
-    nav a.active {
-      background-color: #9BAF9B;
-    }
-
-    .cont {
-      overflow: hidden;
-      display: none;
-    }
-
-    .cont ol {
-      line-height: 30px;
-    }
+  <title>【20周年】柳工国际化</title>
+  <link rel="stylesheet" href="./css/tab.css">
+  <link rel="stylesheet" type="text/css" href="./css/timeline/main.css" />
+  <style type="text/css">
+  #timeline {width: 760px;height: 440px;overflow: hidden;margin: 40px auto;position: relative;background: url('./img/dot.gif') 110px top repeat-y;}
+  #dates {width: 115px;height: 440px;overflow: hidden;float: left;}
+  #dates li {list-style: none;width: 100px;height: 100px;line-height: 100px;font-size: 24px; padding-right:20px; text-align:right; background: url('./img/biggerdot.png') 108px center no-repeat;}
+  #dates a {line-height: 38px;padding-bottom: 10px;}
+  #dates .selected {font-size: 38px;}
+  #issues {width: 630px;height: 440px;overflow: hidden;float: right;}	
+  #issues li {width: 630px;height: 440px;list-style: none;}
+  #issues li h1 {color: #ffcc00;font-size: 42px; height:52px; line-height:52px; text-shadow: #000 1px 1px 2px;}
+  #issues li p {font-size: 14px;margin: 10px;line-height: 26px;}
   </style>
+  <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.timelinr-0.9.53.js"></script>
+  <script type="text/javascript" src="./js/tab.js"></script>
+  <script type="text/javascript">
+  $(function(){
+      $().timelinr({
+      orientation: 	'vertical',
+      issuesSpeed: 	300,
+      datesSpeed: 	100,
+      arrowKeys: 		'true',
+      startAt:		3
+    });
+  });
+  </script>
 
 </head>
 
 <body>
+  <div>
+    <img class="top-img" src="./img/top.gif" style="vertical-align: middle; max-width: 100%;">
+  </div>
+  <div tn-cell-type="group" style="display: inline-block; width: 100%; border: 1px solid rgb(162, 151, 132); padding: 0px 10px 10px; margin: -1px 0px; background-color: transparent; " 
+    tn-link="cell.link" tn-animate="(!isCellBound ? '__NOT_MOUNT__' : cell.anim)" 
+    tn-animate-on-self="true" class="tn-cell tn-cell-group tn-child-position-static tn-state-active ng-scope" 
+    tn-ra-cell="box.cubes:0.pages:0.layers:0.comps:0.col1:1.col1"> 
+    <div class="tn-from-house-paper-cp tn-comp-anim-pin tn-comp ng-scope tn-flag-animation-triggered" 
+    tn-comp-pose="compConstraint.pose.tplPose || compAttr.pose" tn-uuid="" tn-animate="(!isCompBound ? '__NOT_MOUNT__' : compAttr.anim)" 
+    style="position: static;" tn-ra-comp="box.cubes:0.pages:0.layers:0.comps:0.col1:1.col1:0">
+      <section class="tn-comp-pin tn-comp-style-pin" 
+        tn-link="compAttr.link || comp.link" style="isolation: isolate; margin: 40px 0px 0px;">
+        <div tn-cell-type="text" tn-link="cell.link" tn-animate="(!isCellBound ? '__NOT_MOUNT__' : cell.anim)" 
+        tn-animate-on-self="true" tn-yzk-font-usage-id="cell.style.tnYzkFontUsageId" 
+        title="" class="tn-cell tn-cell-text horizontal-tb tn-state-active ng-scope" 
+        style="text-align: center; font-size: 162.5%; letter-spacing: 1px;" tn-ra-cell="box.cubes:0.pages:0.layers:0.comps:0.col1:1.col1:0.txt1">
+        <p>
+          <span style="color: transparent; background-image: linear-gradient(to left, rgb(238, 112, 56) 10%, rgb(12, 45, 109) 100%); display: inline-block;-webkit-background-clip: text;">
+            <strong>柳工国际化&nbsp;20&nbsp;周年</strong>
+          </span>
+        </p>
+      </div>
+    </section>
+  </div>
+  <div class="tn-from-house-paper-cp tn-comp-anim-pin tn-comp ng-scope tn-flag-animation-triggered" 
+  tn-comp-pose="compConstraint.pose.tplPose || compAttr.pose" tn-uuid="" tn-animate="(!isCompBound ? '__NOT_MOUNT__' : compAttr.anim)" 
+  style="position: static;" tn-ra-comp="box.cubes:0.pages:0.layers:0.comps:0.col1:1.col1:1"><section class="tn-comp-pin tn-comp-style-pin" tn-link="compAttr.link || comp.link" style="text-align: center; margin: -16px 0px 0px;">
+    <div style="display: inline-block; width: 80%; height: 10px; vertical-align: top; overflow: hidden; background-color: rgb(216, 196, 133);" 
+    tn-cell-type="group" tn-child-orientation="fixed" tn-link="cell.link" tn-animate="(!isCellBound ? '__NOT_MOUNT__' : cell.anim)" tn-animate-on-self="true" 
+    class="tn-cell tn-cell-group tn-child-position-static tn-state-active group-empty ng-scope" tn-ra-cell="box.cubes:0.pages:0.layers:0.comps:0.col1:1.col1:1.col1">
+  </div>
+</section>
+</div>
+<div class="tn-from-house-paper-cp tn-comp-anim-pin tn-comp ng-scope tn-flag-animation-triggered" 
+tn-comp-pose="compConstraint.pose.tplPose || compAttr.pose" tn-uuid="" tn-animate="(!isCompBound ? '__NOT_MOUNT__' : compAttr.anim)" 
+style="position: static;" tn-ra-comp="box.cubes:0.pages:0.layers:0.comps:0.col1:1.col1:2"><section class="tn-comp-pin tn-comp-style-pin" 
+tn-link="compAttr.link || comp.link"><div tn-cell-type="text" tn-link="cell.link" tn-animate="(!isCellBound ? '__NOT_MOUNT__' : cell.anim)" 
+tn-animate-on-self="true" tn-yzk-font-usage-id="cell.style.tnYzkFontUsageId" title="" class="tn-cell tn-cell-text horizontal-tb tn-state-active ng-scope" 
+style="text-align: justify;" tn-ra-cell="box.cubes:0.pages:0.layers:0.comps:0.col1:1.col1:2.txt1">
+<p><br></p></div></section></div> </div>
   <div class="tabs">
     <nav>
-      <a href="javascript:;" data-cont="local"  class="active">国内新闻</a>
-      <a href="javascript:;" data-cont="global" >国际新闻</a>
-      <a href="javascript:;" data-cont="sports" >体育新闻</a>
-      <a href="javascript:;" data-cont="funny">娱乐新闻</a>
+      <a id="taba" href="javascript:;" data-cont="local" class="active" onclick="onclickTab(this)">#20周年大事件#</a>
+      <a id="tabb" href="javascript:;" data-cont="global" onclick="onclickTab(this)" >#20周年系列新闻#</a>
     </nav>
     <section class="cont" id="local" style="display:block">
-      <ol>
-        <li>国内新闻</li>
-        <li>禽流感在感在广1处继续蔓延，温家宝指示</li>
-        <li>南方大旱，农作物减产绝收面积上亩</li>
-        <li>猪流感在广在全国暴发</li>
-        <li>禽流感在全国多处继续蔓延，温家宝指示</li>
-        <li>南方大旱，农作物减产绝收面积上亩</li>
-        <li>猪流感在广东群体性暴发</li>
-      </ol>
+      <div id="main">
+      <div id="timeline">
+        <ul id="dates">
+          <li><a href="#2005">2005</a></li>
+          <li><a href="#2006">2006</a></li>
+          <li><a href="#2007">2007</a></li>
+          <li><a href="#2008">2008</a></li>
+          <li><a href="#2009">2009</a></li>
+          <li><a href="#2010">2010</a></li>
+          <li><a href="#2011">2011</a></li>
+          <li><a href="#2012">2012</a></li>
+        </ul>
+        <ul id="issues">
+          <li id="2005">
+            <h1>2005 闪亮登场</h1>
+            <p>2005年，呱呱坠地。界面清爽、功能俱全、操作简单易上手，是大家都喜爱的网络家园。出生不久，就有越来越多的朋友到我这里分享自己的生活。</p>
+          </li>
+          <li id="2006">
+            <h1>2006 扬帆起航</h1>
+            <p>2006年，咿呀学语。面对每天千万级的用户访问，技术GG帮我优化了架构，设计师MM帮我设计了欢迎动画等个性化装扮，“妈妈再也不担心我404了”！</p>
+          </li>
+          <li id="2007">
+            <h1>2007 内外兼修</h1>
+            <p>2007年，初长成。咱推出了信息中心和好友圈，开始向SNS社区转型；首创4.0全屏模式，更加美观大方。</p>
+          </li>
+          <li id="2008">
+            <h1>2008 厚积薄发</h1>
+            <p>2008年，十八变。当年推出的个人中心，正式标志着我从传统博客向SNS社区的转变，注册用户和分享量稳居国内第一；每天都有超多用户在我这里分享生活中的新鲜事。</p>
+          </li>
+          <li id="2009">
+            <h1>2009 百花齐放</h1>
+            <p>2009年，百花齐放。引入众多国民级应用，其中最出名的QQ农场，给了好多人一个深夜上网的理由，也为拉近老爸老妈老婆老公的关系做出了卓越的贡献。</p>
+          </li>
+          <li id="2010">
+            <h1>2010 新体验、新起点</h1>
+            <p>2010年，强化内功。致力于在产品体验不断的精雕细琢。因为经历了飞速发展的5年，我明白只有不断的自我修炼，才能让大家真正把咱当成网络的家。</p>
+          </li>
+          <li id="2011">
+            <h1>2011 我的空间 我的家</h1>
+            <p>2011年，培养内涵。更优质的宽屏体验、更丰富的应用、更热闹的个人中心，都是我不断培养内涵的结果。让网络上的家越来越上流，是我追求的目标。</p>
+          </li>
+          <li id="2012">
+            <h1>2012 分享生活 留住感动</h1>
+            <p>2012年，蜕变，不变。和大家一起经历的7年，是我生命中最美好的7年。你们在这7年里，有的从学生步入社会，有的成立家庭，有的有了孩子。时光流转，我们都在成长，但唯一不变的，就是QQ空间——你永远的家！</p>
+          </li>
+        </ul>
+        <a href="#" id="next"></a> <!-- optional -->
+        <a href="#" id="prev"></a> <!-- optional -->
+     </div>
+    </div>
     </section>
     <section class="cont" id="global" >
       <ol>
@@ -88,56 +144,10 @@
         <li>猪流感在广东群体性暴发</li>
       </ol>
     </section>
-    <section class="cont" id="sports">
-      <ol>
-        <li>体育新闻</li>
-        <li>禽流感在全国多处农作物农延，温家宝指示</li>
-        <li>南方大旱，农作物减产绝收面积上亩</li>
-        <li>猪流感在广东群体性暴发</li>
-        <li>禽流感在全农作物继续蔓延，温家宝指示</li>
-        <li>南方大农作物减产绝收面积上亩</li>
-        <li>猪流感在广东群体性暴发</li>
-      </ol>
-    </section>
-    <section class="cont" id="funny">
-      <ol>
-        <li>娱乐新闻</li>
-        <li>禽流感在全国物农延，温家宝指示</li>
-        <li>南方大旱，农作物减产绝收面积上亩</li>
-        <li>猪流感在广东群体性暴发</li>
-        <li>禽流感在全农作物继续蔓延，温家宝指示</li>
-        <li>猪流感在广东群体性暴发</li>
-      </ol>
-    </section>
+  </div>
+  <div>
+    <p>公司简介</p>
   </div>
 </body>
-<script>
-  <!--document.querySelectorAll获取所有的a标签-->
-  var aArr=document.querySelectorAll('a');
-  <!--循环遍历-->
-  for(var i=0;i<aArr.length;i++){
-  <!--给每个获取到的元素添加点击事件-->
-      aArr[i].onclick=function(){
-      <!--获取当前激活的tab选项卡-->
-         var active=document.querySelector(".active");
-         <!--移除之前的选项卡激活属性-->
-         active.classList.remove("active");
-         <!--给当前点击的选项卡添加激活属性-->
-         this.classList.add("active");
-         <!--获取当前的section标签id名字-->
-         var name=this.getAttribute("data-cont");
-         <!--根据获取到的名字获取当前的内容卡-->
-         var section=document.getElementById(name);
-         <!--获取所有class为cont的元素，并循环遍历，取消所有内容卡的样式-->
-         var cont = document.getElementsByClassName("cont");
-         for(var i=0;i<cont.length;i++){
-          cont[i].style.display="none";
 
-         }
-         <!--激活当前内容卡的样式-->
-         section.style.display="block";
-
-      }
-  }
-</script>
 </html>
