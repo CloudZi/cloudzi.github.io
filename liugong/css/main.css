@@ -19,7 +19,6 @@ h2.top_title{margin:4px 20px; padding-top:15px; padding-left:20px; padding-botto
 #footer p a:hover{color:#51555C}
 
 .top-img {
-    display: table-cell;
-    width: auto;
+    
     vertical-align: middle;
 }

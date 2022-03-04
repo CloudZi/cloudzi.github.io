@@ -6,39 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>【20周年】柳工国际化</title>
-  <link rel="stylesheet" href="./css/tab.css">
-  <link rel="stylesheet" type="text/css" href="./css/timeline/main.css" />
-  <style type="text/css">
-  #timeline {width: 760px;height: 440px;overflow: hidden;margin: 40px auto;position: relative;background: url('./img/dot.gif') 110px top repeat-y;}
-  #dates {width: 115px;height: 440px;overflow: hidden;float: left;}
-  #dates li {list-style: none;width: 100px;height: 100px;line-height: 100px;font-size: 24px; padding-right:20px; text-align:right; background: url('./img/biggerdot.png') 108px center no-repeat;}
-  #dates a {line-height: 38px;padding-bottom: 10px;}
-  #dates .selected {font-size: 38px;}
-  #issues {width: 630px;height: 440px;overflow: hidden;float: right;}	
-  #issues li {width: 630px;height: 440px;list-style: none;}
-  #issues li h1 {color: #ffcc00;font-size: 42px; height:52px; line-height:52px; text-shadow: #000 1px 1px 2px;}
-  #issues li p {font-size: 14px;margin: 10px;line-height: 26px;}
-  </style>
+  <link rel="stylesheet" type="text/css" href="./css/tab.css" />
+  <link rel="stylesheet" type="text/css" href="./css/main.css" />
+  <link rel="stylesheet" type="text/css" href="./css/timeline.css" />
   <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
   <script type="text/javascript" src="./js/jquery.timelinr-0.9.53.js"></script>
   <script type="text/javascript" src="./js/tab.js"></script>
   <script type="text/javascript">
-  $(function(){
-      $().timelinr({
-      orientation: 	'vertical',
-      issuesSpeed: 	300,
-      datesSpeed: 	100,
-      arrowKeys: 		'true',
-      startAt:		3
+    $(function(){
+        $().timelinr({
+        orientation: 	'vertical',
+        issuesSpeed: 	300,
+        datesSpeed: 	100,
+        arrowKeys: 		'true',
+        startAt:		3
+      });
     });
-  });
   </script>
-
 </head>
 
 <body>
   <div>
-    <img class="top-img" src="./img/top.gif" style="vertical-align: middle; max-width: 100%;">
+    <img class="top-img" src="./img/top.gif" style="vertical-align: middle; max-width: 100%; display: table-cell;">
   </div>
   <div tn-cell-type="group" style="display: inline-block; width: 100%; border: 1px solid rgb(162, 151, 132); padding: 0px 10px 10px; margin: -1px 0px; background-color: transparent; " 
     tn-link="cell.link" tn-animate="(!isCellBound ? '__NOT_MOUNT__' : cell.anim)" 
