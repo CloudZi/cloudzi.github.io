@@ -27,12 +27,13 @@ body {
     /** optional, better alignment for multi-row use cases -> or use flexbox */
     background: #fff;
     max-width: 280px;
-    height: 420px;
-    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .15), 0 0 4px 0 rgba(0, 0, 0, .2), 0 12px 12px 0 rgba(0, 0, 0, .15);
+    height: 480px;
+    /*box-shadow: 0 0 2px 0 rgba(0, 0, 0, .15), 0 0 4px 0 rgba(0, 0, 0, .2), 0 12px 12px 0 rgba(0, 0, 0, .15);*/
     margin: 15px;
     transition: box-shadow .2s ease-in-out;
     border-radius: 15px;
     overflow: hidden;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, .1), 0 0 36px 0 rgba(0, 0, 0, .15), 0 36px 36px 0 rgba(0, 0, 0, .2);
 }
 .card[draggable=true] {
     cursor: move;
@@ -49,7 +50,6 @@ body {
     user-select: none;
 }
 .card:hover {
-    box-shadow: 0 0 18px 0 rgba(0, 0, 0, .1), 0 0 36px 0 rgba(0, 0, 0, .15), 0 36px 36px 0 rgba(0, 0, 0, .2);
 }
 .card > img {
     padding: 0;

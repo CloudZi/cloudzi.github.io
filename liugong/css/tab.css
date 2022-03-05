@@ -6,9 +6,9 @@ body {
 
 .tabs {
     width: 100%;
-    margin: 30px auto;
+    margin: 0px;
     background-color: #FFF;
-    border: 1px solid #C0DCC0;
+    /*border: 1px solid #C0DCC0;1px solid rgb(162, 151, 132)*/
     box-sizing: border-box;
 }
 
@@ -17,7 +17,6 @@ body {
     text-align: center;
     line-height: 40px;
     overflow: hidden;
-    background-color: #C0DCC0;
     /* 伸缩盒模型 */
     display: flex;
 }
@@ -25,9 +24,9 @@ body {
 nav a {
     display: block;
     width: 50%;
-    border-right: 1px solid #FFF;
     color: #000;
     text-decoration: none;
+    border-bottom: 3px solid #e2e9bc;
 }
 
 nav a:last-child {
@@ -35,7 +34,9 @@ nav a:last-child {
 }
 
 nav a.active {
-    background-color: rgb(216, 196, 133);
+    /*background-color: rgb(216, 196, 133);*/
+    font-weight: bold;
+    border-bottom: 3px solid #acb47e;
 }
 
 .cont {
