@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>【20周年】柳工国际化</title>
+  <link rel="stylesheet" type="text/css" href="./css/loader.css" />
   <link rel="stylesheet" type="text/css" href="./css/tab.css" />
   <link rel="stylesheet" type="text/css" href="./css/main.css" />
   <link rel="stylesheet" type="text/css" href="./css/timeline.css" />
@@ -27,8 +28,27 @@
     });
   </script>
 </head>
-
 <body>
+  <div id="loading" class="loader">
+    <span>柳工正在走来……</span>
+    <div class="loader-inner">
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+      <div class="loader-line-wrap">
+        <div class="loader-line"></div>
+      </div>
+    </div>
+  </div>
   <div>
     <img src="./img/top.gif" style="vertical-align: middle; max-width: 100%; display: table-cell;">
   </div>
@@ -390,5 +410,7 @@ style="text-align: justify;" tn-ra-cell="box.cubes:0.pages:0.layers:0.comps:0.co
     </div>
   </section>
 </body>
-
+<script type="text/javascript">
+  $("#loading").fadeOut(5000)
+</script>
 </html>
