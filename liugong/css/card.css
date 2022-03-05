@@ -77,9 +77,9 @@ body {
 }
 .news-text {
     margin: 0;
-    font-size: 0.8125rem;
-    line-height: 1rem;
-    font-weight: 200;
+    font-size: 12px;
+    line-height: 15px;
+    /*font-weight: 200;*/
 }
 .card-placeholder {
     position: fixed;
