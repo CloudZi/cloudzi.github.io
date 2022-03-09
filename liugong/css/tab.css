@@ -14,8 +14,8 @@ body {
 
 .tabs nav {
     height: 60px;
-    text-align: center;
-    line-height: 60px;
+    /*text-align: center;*/
+    line-height: 20px;
     overflow: hidden;
     /* 伸缩盒模型 */
     display: flex;
