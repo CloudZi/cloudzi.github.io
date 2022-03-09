@@ -26,14 +26,14 @@ body {
     /*float: left;
     /** optional, better alignment for multi-row use cases -> or use flexbox */
     background: #fff;
-    max-width: 280px;
+    max-width: 285px;
     height: 480px;
-    /*box-shadow: 0 0 2px 0 rgba(0, 0, 0, .15), 0 0 4px 0 rgba(0, 0, 0, .2), 0 12px 12px 0 rgba(0, 0, 0, .15);*/
+    /*box-shadow: 0 0 2px 0 rgba(0, 0, 0, .15), 0 0 4px 0 rgba(0, 0, 0, .2), 0 12px 12px 0 rgba(0, 0, 0, .15);
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, .1), 0 0 36px 0 rgba(0, 0, 0, .15), 0 36px 36px 0 rgba(0, 0, 0, .2);*/
     margin: 15px;
     transition: box-shadow .2s ease-in-out;
     border-radius: 15px;
     overflow: scroll;
-    box-shadow: 0 0 18px 0 rgba(0, 0, 0, .1), 0 0 36px 0 rgba(0, 0, 0, .15), 0 36px 36px 0 rgba(0, 0, 0, .2);
 }
 .card[draggable=true] {
     cursor: move;
@@ -74,6 +74,46 @@ body {
     color: aliceblue; 
     font-size: 13px;
     padding: 5px;
+}
+.part-num-a {
+    width: 20px;
+    float: left;
+    line-height: 36px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #002a6a;
+    margin-top: 3px;
+}
+.part-zh-a {
+    margin-left: 8px;
+    color: #002a6a;
+}
+.part-en-a {
+    margin-left: 8px;
+    background: #002a6a;
+    color: #fff;
+    font-size: xx-small;
+    width: fit-content;
+}
+.part-num-b {
+    width: 20px;
+    float: left;
+    line-height: 36px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(201 155 12);
+    margin-top: 3px;
+}
+.part-zh-b {
+    margin-left: 8px;
+    color: rgb(201 155 12);
+}
+.part-en-b {
+    margin-left: 8px;
+    background: rgb(201 155 12);
+    color: #fff;
+    font-size: xx-small;
+    width: fit-content;
 }
 .news-text {
     margin: 0;

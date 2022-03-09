@@ -20,6 +20,7 @@ body {
     /* 伸缩盒模型 */
     display: flex;
     margin-top: 20px;
+    align-items: center;
 }
 
 nav a {
