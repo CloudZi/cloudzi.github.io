@@ -13,12 +13,13 @@ body {
 }
 
 .tabs nav {
-    height: 40px;
+    height: 60px;
     text-align: center;
-    line-height: 40px;
+    line-height: 60px;
     overflow: hidden;
     /* 伸缩盒模型 */
     display: flex;
+    margin-top: 20px;
 }
 
 nav a {
