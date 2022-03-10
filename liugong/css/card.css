@@ -26,14 +26,21 @@ body {
     /*float: left;
     /** optional, better alignment for multi-row use cases -> or use flexbox */
     background: #fff;
-    max-width: 285px;
+    max-width: 300px;
     height: 480px;
     /*box-shadow: 0 0 2px 0 rgba(0, 0, 0, .15), 0 0 4px 0 rgba(0, 0, 0, .2), 0 12px 12px 0 rgba(0, 0, 0, .15);
     box-shadow: 0 0 18px 0 rgba(0, 0, 0, .1), 0 0 36px 0 rgba(0, 0, 0, .15), 0 36px 36px 0 rgba(0, 0, 0, .2);*/
-    margin: 15px;
+    margin-left: 8px;
+    margin-top: 8px;
     transition: box-shadow .2s ease-in-out;
     border-radius: 15px;
     overflow: scroll;
+}
+.card-news {
+    height: 280px;
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .card[draggable=true] {
     cursor: move;
@@ -87,6 +94,7 @@ body {
 .part-zh-a {
     margin-left: 8px;
     color: #002a6a;
+    font-weight: bold;
 }
 .part-en-a {
     margin-left: 8px;
@@ -101,12 +109,13 @@ body {
     line-height: 36px;
     font-size: 40px;
     font-weight: bold;
-    color: rgb(201 155 12);
+    color: rgb(201 155 12); /*#f8cb00; */
     margin-top: 3px;
 }
 .part-zh-b {
     margin-left: 8px;
     color: rgb(201 155 12);
+    font-weight: bold;
 }
 .part-en-b {
     margin-left: 8px;
@@ -117,8 +126,8 @@ body {
 }
 .news-text {
     margin: 0;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 13px;
+    line-height: 20px;
     /*font-weight: 200;*/
 }
 .card-placeholder {

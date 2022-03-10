@@ -17,7 +17,7 @@ img{border:none}
 
 #header{width:980px; height:90px; margin:0px auto; position:relative;}
 
-#main{width:980px; min-height:450px; margin:10px 0 0 0; background:#f3f3ef;}
+#main{width:980px; min-height:450px; margin:5px 0 0 0; }
 h2.top_title{margin:4px 20px; padding-top:15px; padding-left:20px; padding-bottom:10px; border-bottom:1px solid #d3d3d3; font-size:18px; color:#a84c10;}
 
 #footer{height:60px;}

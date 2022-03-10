@@ -7,7 +7,7 @@
     background: url('../img/dot.gif') 60px top repeat-y;
 }
 #dates {
-    width: 75px;
+    width: 65px;
     height: 490px;
     overflow: hidden;
     float: left;
@@ -28,7 +28,7 @@
     font-weight: bold;
 }
 #issues {
-    width: 630px;height: 490px;overflow: hidden;float: left;
+    width: 630px;height: 490px;overflow: hidden; float: left; background:rgb(239 237 237);
 }	
 #issues li {
     width: 630px;height: 490px;list-style: none;
