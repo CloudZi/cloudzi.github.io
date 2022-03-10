@@ -28,7 +28,7 @@
     font-weight: bold;
 }
 #issues {
-    width: 630px;height: 490px;overflow: hidden; float: left; background:rgb(239 237 237);
+    width: 630px;height: 490px;overflow: hidden; float: left; background: #f7f5f5;
 }	
 #issues li {
     width: 630px;height: 490px;list-style: none;
@@ -40,5 +40,5 @@
     color: #002a6a; font-size: 16px; line-height: 24px; 
 }
 #issues li p {
-    font-size: 12px; margin: 8px; line-height: 16px; color: rgb(85, 66, 6);
+    font-size: 13px; margin: 8px; line-height: 16px; color: rgb(85, 66, 6);
 }

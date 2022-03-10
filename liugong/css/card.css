@@ -25,7 +25,7 @@ body {
     display: inline-block;
     /*float: left;
     /** optional, better alignment for multi-row use cases -> or use flexbox */
-    background: #fff;
+    background: transparent;
     max-width: 300px;
     height: 480px;
     /*box-shadow: 0 0 2px 0 rgba(0, 0, 0, .15), 0 0 4px 0 rgba(0, 0, 0, .2), 0 12px 12px 0 rgba(0, 0, 0, .15);
@@ -33,14 +33,15 @@ body {
     margin-left: 8px;
     margin-top: 8px;
     transition: box-shadow .2s ease-in-out;
-    border-radius: 15px;
     overflow: scroll;
 }
 .card-news {
-    height: 280px;
+    height: 260px;
     margin-left: 8px;
     margin-top: 8px;
     margin-bottom: 8px;
+    background: #fff;
+    border-radius: 15px;
 }
 .card[draggable=true] {
     cursor: move;
@@ -88,13 +89,16 @@ body {
     line-height: 36px;
     font-size: 40px;
     font-weight: bold;
-    color: #002a6a;
+    color: transparent;
     margin-top: 3px;
+    background-image: linear-gradient(to right, rgba(0,42,106,1), rgba(0,42,106,0));
+    -webkit-background-clip: text;
 }
 .part-zh-a {
     margin-left: 8px;
     color: #002a6a;
     font-weight: bold;
+    font-size: 95%;
 }
 .part-en-a {
     margin-left: 8px;
@@ -109,13 +113,16 @@ body {
     line-height: 36px;
     font-size: 40px;
     font-weight: bold;
-    color: rgb(201 155 12); /*#f8cb00; */
+    color: transparent; /*#f8cb00; */
     margin-top: 3px;
+    background-image: linear-gradient(to right, rgba(201,155,12,1), rgba(201,155,12,0));
+    -webkit-background-clip: text;
 }
 .part-zh-b {
     margin-left: 8px;
     color: rgb(201 155 12);
     font-weight: bold;
+    font-size: 95%;
 }
 .part-en-b {
     margin-left: 8px;
@@ -125,10 +132,10 @@ body {
     width: fit-content;
 }
 .news-text {
-    margin: 0;
+    margin: 0 0 0 5px;
     font-size: 13px;
     line-height: 20px;
-    /*font-weight: 200;*/
+    text-align: left;
 }
 .card-placeholder {
     position: fixed;
