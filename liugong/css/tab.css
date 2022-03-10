@@ -28,7 +28,7 @@ nav a {
     width: 50%;
     color: #000;
     text-decoration: none;
-    border-bottom: 3px solid #e2e9bc;
+    border-bottom: 3px solid #f1baa0;
 }
 
 nav a:last-child {
@@ -38,7 +38,7 @@ nav a:last-child {
 nav a.active {
     /*background-color: rgb(216, 196, 133);*/
     font-weight: bold;
-    border-bottom: 3px solid #acb47e;
+    border-bottom: 3px solid #ec6a2e;
 }
 
 .cont {
