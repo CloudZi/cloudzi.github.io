@@ -8,9 +8,10 @@
 }
 #dates {
     width: 65px;
-    height: 490px;
-    overflow: hidden;
+    max-height: 490px;
+    overflow: hidden scroll;
     float: left;
+    margin-top: 0px !important;
 }
 #dates li {
     list-style: none;
