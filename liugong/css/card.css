@@ -93,6 +93,7 @@ body {
     margin-top: 3px;
     background-image: linear-gradient(to right, rgba(0,42,106,1), rgba(0,42,106,0));
     -webkit-background-clip: text;
+    display: none;
 }
 .part-zh-a {
     margin-left: 8px;
@@ -117,6 +118,7 @@ body {
     margin-top: 3px;
     background-image: linear-gradient(to right, rgba(201,155,12,1), rgba(201,155,12,0));
     -webkit-background-clip: text;
+    display: none;
 }
 .part-zh-b {
     margin-left: 8px;
