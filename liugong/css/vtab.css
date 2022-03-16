@@ -1,0 +1,72 @@
+.vtab {
+	position: relative; 
+	width: 100%;
+	height: 480px;
+}
+
+.vtab > nav > a {
+	position: relative !important; 
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	font-size: 15px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+    padding-right: 10px;
+	background: #f1baa0; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px 8px 8px 0px;
+	width: 60px;
+	height: 80px;
+	writing-mode: tb;
+	/*transform: rotate(-90deg);*/
+}
+
+.vtab > nav > a.active {
+    background-color: #ec6a2e;
+    border-bottom: none;
+}
+
+.vcont {
+    overflow: hidden;
+    display: none;
+}
+
+.vtab > nav { 
+	background: #fff; /*#f7f5f5*/
+	margin-top: 0;
+	height: 480px; 
+	position: absolute; 
+	max-width: 70px;
+	display: block;
+}
+
+.tab-content { 
+	background: #f7f5f5;
+	margin-top: 0;
+	height: 480px; 
+	/*max-width: 320px;*/
+	margin-left: 60px;
+    padding-left: 15px;
+	overflow: scroll;
+}
+
+.tab-content img{ 
+	margin:0 auto; 
+	display: inline-block; 
+    padding-top: 10px;
+}
+
+.tab-content img:hover{ 
+	transform: scale(1.2);
+}
+
+div#gray{
+	background : black;
+	opacity : 0.55;
+	filter : alpha(opacity=55);
+	position : absolute;
+	top : 0px;
+	left : 0px;
+}

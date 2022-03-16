@@ -14,6 +14,7 @@
   <link rel="stylesheet" type="text/css" href="./css/main.css" />
   <link rel="stylesheet" type="text/css" href="./css/timeline.css" />
   <link rel="stylesheet" type="text/css" href="./css/card.css" />
+  <link rel="stylesheet" type="text/css" href="./css/vtab.css"/>
   <script type="text/javascript" src="./js/jquery-1.7.2.min.js"></script>
   <script type="text/javascript" src="./js/jquery.timelinr-0.9.53.js"></script>
   <script type="text/javascript" src="./js/tab.js"></script>
@@ -74,13 +75,18 @@
     <nav>
       <a id="taba" href="javascript:;" data-cont="local" class="active" onclick="onclickTab(this)">
         <img src="./img/milestone.png" style="vertical-align: middle; max-width: 30px; float: left; margin-left: 15%; "> 
-        <div><span style="margin-left: 8px;">20周年大事件</span></div>
+        <div><span style="margin-left: 8px;">大事件</span></div>
         <div><span style="color: rgb(190, 185, 185); font-size: xx-small; margin-left: 8px; ">MILESTONE</span></div>
       </a>
       <a id="tabb" href="javascript:;" data-cont="global" onclick="onclickTab(this)" >
         <img src="./img/news.png" style="vertical-align: middle; max-width: 30px; float: left; margin-left: 15%; "> 
-        <div><span style="margin-left: 8px;">20周年系列新闻</span></div>
+        <div><span style="margin-left: 8px;">系列新闻</span></div>
         <div><span style="color: rgb(190, 185, 185); font-size: xx-small; margin-left: 8px; ">NEWS</span></div>
+      </a>
+      <a id="tabc" href="javascript:;" data-cont="media" onclick="onclickTab(this)" >
+        <img src="./img/lens.png" style="vertical-align: middle; max-width: 30px; float: left; margin-left: 15%; "> 
+        <div><span style="margin-left: 8px;">镜头辑</span></div>
+        <div><span style="color: rgb(190, 185, 185); font-size: xx-small; margin-left: 8px; ">LENS</span></div>
       </a>
     </nav>
     <section class="cont" id="local" style="display:block">
@@ -369,6 +375,67 @@
           </div>
         </div>
     </div>
+    </section>
+
+    <section class="cont" id="media">
+      <div class="vtab">
+        
+        <nav>
+          <a id="vtaba" href="javascript:;" data-vcont="photo" class="active" onclick="onclickVTab(this)">
+            <div style="text-align: center;">
+              <div><span>瞬间</span></div>
+              <div><span style="color: #fff; font-size: xx-small; margin-left: 8px; ">PHOTOS</span></div>
+            </div>
+          </a>
+          <a id="vtabb" href="javascript:;" data-vcont="video" onclick="onclickVTab(this)" >
+            <div style="text-align: center;">
+              <div><span style="margin-left: 8px;">视频</span></div>
+              <div><span style="color: #fff; font-size: xx-small; margin-left: 8px; ">VIDEOS</span></div>
+            </div>
+          </a>
+        </nav>
+
+        <section class="vcont" id="photo" style="display:block">
+          <div class="tab-content">
+            <img style="max-width: 100px; max-height: 100px;" src="./img/events/2020.jpg" onclick="show(this)" />
+            <img style="max-width: 100px; max-height: 100px;" src="./img/events/2020.jpg" onclick="show(this)" />
+            <img style="max-width: 100px; max-height: 100px;" src="./img/events/2020.jpg" onclick="show(this)" />
+            <img style="max-width: 100px; max-height: 100px;" src="./img/events/2020.jpg" onclick="show(this)" />
+            <img style="max-width: 100px; max-height: 100px;" src="./img/events/2020.jpg" onclick="show(this)" />
+            <img style="max-width: 100px; max-height: 100px;" src="./img/events/2020.jpg" onclick="show(this)" />
+            <img style="max-width: 100px; max-height: 100px;" src="./img/events/2020.jpg" onclick="show(this)" />
+            <img style="max-width: 100px; max-height: 100px;" src="./img/events/2020.jpg" onclick="show(this)" />
+            <img style="max-width: 100px; max-height: 100px;" src="./img/events/2020.jpg" onclick="show(this)" />
+          </div> 
+        </section>
+          
+        <section class="vcont" id="video" style="background: rgb(239 237 237); text-align: center;">
+          <div style="margin-left: 60px; overflow: scroll; height: 480px;">
+            <div class="card card-news" onclick="window.location.href='https://www.liugong.com/zh-CN/ch'" draggable="true">
+              <img style="max-width: 300px;" src="./img/events/2020.jpg" />
+              <div class="card-text">
+                <div class="news-text">多系列设备助力拉美城市现代化建设</div>
+                <div class="news-text">LiuGong Equipment Helping to Modernize Latin American Cities</div>
+              </div>
+            </div>
+            <div class="card card-news" onclick="window.location.href='https://www.liugong.com/zh-CN/ch'" draggable="true">
+              <img style="max-width: 300px;" src="./img/events/2020.jpg" />
+              <div class="card-text">
+                <div class="news-text">多系列设备助力拉美城市现代化建设</div>
+                <div class="news-text">LiuGong Equipment Helping to Modernize Latin American Cities</div>
+              </div>
+            </div>
+            <div class="card card-news" onclick="window.location.href='https://www.liugong.com/zh-CN/ch'" draggable="true">
+              <img style="max-width: 300px;" src="./img/events/2020.jpg" />
+              <div class="card-text">
+                <div class="news-text">多系列设备助力拉美城市现代化建设</div>
+                <div class="news-text">LiuGong Equipment Helping to Modernize Latin American Cities</div>
+              </div>
+            </div>
+          </div>
+        </section> 
+
+      </div>
     </section>
   </div>
 
